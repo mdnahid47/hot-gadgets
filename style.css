@@ -1,0 +1,45 @@
+.container{
+    margin-bottom: 100px;
+}
+.container-fluid a img{
+    width: 140px;
+}
+#carouselExampleIndicators{
+    padding: 5px 0px;
+    
+}
+.buybtn{
+    background-color: black;
+    color: #fff;
+    border:none;
+    border-radius: 8px;
+    padding: 9px 25px ;
+    cursor: pointer;
+}
+.card{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 0px 40px;
+}
+.card-body{
+    font-family: sans-serif;
+}
+.card-text{
+   color: grey; 
+   font-size: 12px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smart a{
+    text-decoration: none;
+    color: orange;
+}
+.smart{
+    padding: 60px 0px;
+}
