@@ -1,1 +1,2 @@
-# hot-gadgets
+Website link:
+Hot-Gadgets assignment 

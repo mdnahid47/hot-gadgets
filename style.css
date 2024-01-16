@@ -43,3 +43,35 @@
 .smart{
     padding: 60px 0px;
 }
+.categories h3{
+font-size: 3rem;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.carousel-indicators div{
+height: 7px;
+width: 10px;
+border-radius: 6px;
+background-color: rgba(128, 128, 128, 0.3);
+margin: 10px 3px;
+}
+.carousel-indicators .active {
+    height: 7px;
+    width: 30px;
+    border-radius: 11px;
+    background-image: linear-gradient(to right, #ff8206, #ffd019);}
+  .carousel-item {
+    padding: 10px 40px 20px;
+  }
+  .underline-block {
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff8206, #ffff00);
+  }
+  
+  
+  
