@@ -1,13 +1,35 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
+/********navbar********/
+.white-bg{
+    background-color: #fff;
+}
+
 .container-fluid a img{
-    width: 140px;
+    width: 200px;
 }
+/**********Carousel********/
 #carouselExampleIndicators{
     padding: 5px 0px;
     
 }
+.carousel-indicators div{
+    height: 7px;
+    width: 10px;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin: 10px 3px;
+    }
+    .carousel-indicators .active {
+        height: 7px;
+        width: 30px;
+        border-radius: 11px;
+        background-image: linear-gradient(to right, #ff8206, #ffd019);}
+      .carousel-item {
+        padding: 10px 40px 20px;
+      }
+/*********Button**********/
 .buybtn{
     background-color: black;
     color: #fff;
@@ -16,19 +38,26 @@
     padding: 9px 25px ;
     cursor: pointer;
 }
+/***********product***********/
 .card{
-    width: 80%;
+    
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
-    padding: 0px 40px;
+    box-shadow: 1px 1px 10px #80808080;
+    
 }
-.card-body{
+.card-title{
     font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .card-text{
-   color: grey; 
-   font-size: 12px;
+ font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.card-text{
+  
+   font-size: 20px;
 }
 .card-body{
     display: flex;
@@ -43,35 +72,33 @@
 .smart{
     padding: 60px 0px;
 }
-.categories h3{
-font-size: 3rem;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.carousel-indicators div{
-height: 7px;
-width: 10px;
-border-radius: 6px;
-background-color: rgba(128, 128, 128, 0.3);
-margin: 10px 3px;
-}
-.carousel-indicators .active {
-    height: 7px;
-    width: 30px;
-    border-radius: 11px;
-    background-image: linear-gradient(to right, #ff8206, #ffd019);}
-  .carousel-item {
-    padding: 10px 40px 20px;
-  }
+/**********categories**********/
   .underline-block {
     width: 100px;
     height: 8px;
     border-radius: 10px;
     background-image: linear-gradient(to right, #ff8206, #ffff00);
   }
+  #perfume-cat, #shoes-cat{
+    border-radius: 15px 5px 30px 5px;
   
-  
-  
+  }
+  #bag-cat{
+    border-radius: 5px 15px 5px 30px;
+} 
+/*********Footer**********/
+.footer-block{
+    background-color: #37475a;
+}
+.footer-block input{
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+    
+    padding: 5px;
+}
+
+.submit-btn:hover{
+    background-color: lightgray;
+}
+
